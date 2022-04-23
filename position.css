@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pos{
+    width: 450px;
+    height: 250px;
+    background-color: green;
+    position: relative;
+    top:90px;
+    left: 100px;
+}
+
+.inner{
+    width:150px;
+    height:150px;
+    background-color: red;
+    position: absolute;
+    top:50px;
+    left: 150px;
+    border-radius: 100%;
+}
